@@ -1,0 +1,46 @@
+# GET http://localhost:3000/eshram-profile
+# Content-Type: application/json
+
+# GET http://localhost:3000/person-profile
+# Content-Type: application/json
+
+# {
+#     "id": "61a73dafa44feb8a745fe82e"
+# }
+
+# POST http://localhost:3000/eshram
+# Content-Type: application/json
+
+# {
+#     "name": "PADMABATI MONDAL",
+#     "foh": "NANDADULAL MONDAL",
+#     "dob": "10/05/1970",
+#     "gender": "FEMALE",
+#     "primary_occupation": "Crop Farm Laboures",
+#     "current_address": "Bahara, Mayureswar II, Birbhum, West Bengal-731234",
+#     "mobile_number": "6302571879",
+#     "uan": "7116 2306 9235"
+# }
+
+# DELETE http://localhost:3000/delete-user-profile
+# Content-Type: application/json
+
+# {
+#     "id": "61a5d56cc6b4007946fb8a76"
+# }
+
+PUT http://localhost:3000/edit-user-profile
+Content-Type: application/json
+
+{
+  "_id": "61aa129f4572f3b3780cec0c",
+  "name": "TEST 4",
+  "foh": "TEST 2",
+  "dob": "2021-12-03",
+  "gender": "FEMALE",
+  "primary_occupation": "Crop Farm Laboures",
+  "current_address": "Bahara, Mayureswar II, Birbhum, West Bengal-731234",
+  "mobile_number": "6302571567",
+  "uan": "7116 2346 9235",
+  "profilePicPath": "assets/images/4.png"
+}
